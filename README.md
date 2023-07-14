@@ -16,7 +16,7 @@ kustomize build https://github.com/openshift-examples/simple-container-registry 
 
 * **External tool - SaaS ;-)**
    
-  <https://explore.ggcr.dev/?image=default-registry.apps...>
+  <https://explore.ggcr.dev/?repo=default-registry.apps...>
 
 
 
