@@ -12,6 +12,9 @@ spec:
     name: default
     weight: 100
   wildcardPolicy: None
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
 ---
 apiVersion: route.openshift.io/v1
 kind: Route
@@ -27,3 +30,6 @@ spec:
     name: default
     weight: 100
   wildcardPolicy: None
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
