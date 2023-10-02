@@ -3,13 +3,13 @@ kind: Route
 metadata:
   labels:
     app: registry
-  name: default
+  name: registry
 spec:
   port:
     targetPort: registry
   to:
     kind: Service
-    name: default
+    name: registry
     weight: 100
   wildcardPolicy: None
   tls:
@@ -27,7 +27,7 @@ spec:
     targetPort: webui
   to:
     kind: Service
-    name: default
+    name: registry
     weight: 100
   wildcardPolicy: None
   tls:

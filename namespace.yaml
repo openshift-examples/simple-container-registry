@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: registry
+  name: multi-arch-demo
 spec:
   finalizers:
   - kubernetes
